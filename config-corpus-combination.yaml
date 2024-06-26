@@ -1,0 +1,25 @@
+MTUOC: /MTUOC
+#the directory where the MTUOC auxiliary scripts are located
+
+corpusSPE: corpusINDOMAIN-eng-spa.txt
+weightSPE: 1
+corpusGEN: corpusOUTDOMAIN-eng-spa.txt
+weightGEN: 0.5
+corpusSELECTED: corpusSELECTED-eng-spa.txt
+corpus_GEN_SEL_LINES: 10000000
+corpus_GEN_MAX_READ: -1
+from_scores_database: False
+scores_database_name: corpus-scores-eng-spa.sqlite
+valsize: 5000
+evalsize: 5000
+SLcode3: eng
+SLcode2: en
+TLcode3: spa
+TLcode2: es
+
+tokenize_for_language_model_creation: True
+SL_TOKENIZER: MTUOC_tokenizer_eng
+TL_TOKENIZER: MTUOC_tokenizer_spa
+
+VERBOSE: True
+LOG_FILE: combination_log.txt
